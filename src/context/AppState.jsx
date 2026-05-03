@@ -7,7 +7,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const AppState = (props) => {
     // const url ="http://localhost:3000/api"
-    const url ="https://abhay2000.onrender.com/api"
+    //const url ="https://abhay2000.onrender.com/api"https://abhay2000.onrender.com
+    const url ="https://abhay2000.onrender.com"
     
     const [products, setProducts] = useState([])
     const [token, setToken] = useState('')
