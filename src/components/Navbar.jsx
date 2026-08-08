@@ -24,7 +24,7 @@ home
          search
          </span>
          
-        <input type="text" placeholder='Search Products...'/>
+        <input type="text" placeholder='Search Products...' style={{width:"90%"}} />
          </div>
        <div className="right">
         {isAuthenticated &&(
