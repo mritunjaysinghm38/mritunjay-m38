@@ -16,7 +16,8 @@ const Navbar = () => {
     <div className='nav sticky-top'>
       <div className="nav-bar  ">
         <Link to ={'/'} className="left" style={{textDecoration:'none',color:'white'}}>
-        <div style={{display:"flex"}}><h3><pre>HOME </pre> </h3><span className="material-symbols-outlined " >
+        {/* <div style={{display:"flex"}}><h3><pre>HOME </pre> </h3><span className="material-symbols-outlined " > */}
+                  <div style={{display:"flex"}}><h3><pre>Abhay.HOME </pre> </h3><span className="material-symbols-outlined " >
 home
 </span></div>
         </Link>
