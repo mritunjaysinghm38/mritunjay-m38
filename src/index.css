@@ -1,6 +1,6 @@
 body{
-  background-color: black;
-  color:white;
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
 body::-webkit-scrollbar{
   display: none;
@@ -21,8 +21,8 @@ body::-webkit-scrollbar{
   align-items: center;
   padding: '10px';
   background-color: blueviolet;
-  
 }
+
 .search_bar{
   display:flex;
   justify-content: center;
@@ -30,9 +30,13 @@ body::-webkit-scrollbar{
   background-color: black;
   border-radius: 20px;
   padding: 7px;
-
   width: 30%;
 }
+
+
+/* 
+abhay kumare bahut acche hai mritunjay kumar singh dust hai mutuswami iska nickname hai ye bahut harami hai inko 36 kalwao mai se ek bhi kala kisi kaam ka nahi hai - Abhay pendu*/
+
 .search_bar input{
   border: none;
   background-color: black;
@@ -40,13 +44,23 @@ body::-webkit-scrollbar{
   width: 400px;
 
 }
-.search_bar input{
+
+
+
+
+.search_bar input::placeholder{
   font-weight: bold;
   color: white;
 }
+
+
+
 .search_bar input:focus{
 outline: none;
 }
+
+
+
 .sub_bar{
   height: 31px;
   display: flex;
@@ -54,20 +68,25 @@ outline: none;
   align-items: center;
   width: 100%;
   background-color: rgb(81, 9, 148);
-  /* width: 10px; */
 }
-.sub_bar.items{
+
+
+.sub_bar .items{
   padding: 10px;
   font-weight: bold;
 
-  
 }
+
+
+
 .sub_bar .items:hover{
   cursor:pointer;
   background-color: black;
+
 }
 
 td{
   vertical-align: middle;
   cursor: pointer;
+
 }
