@@ -9,10 +9,10 @@ const Profile = () => {
         <h1>
         Wellcome,{user?.name}
         </h1>
-        <h3>{user?.email}
+        <h3>{user?.email} 
             </h3>
         </div>
-    </>
+    </> 
   )
 }
 
