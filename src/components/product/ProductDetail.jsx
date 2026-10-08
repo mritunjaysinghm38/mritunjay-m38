@@ -7,10 +7,10 @@ import RelatedProduct from "./RelatedProduct";
 const ProductDetail = () => {
   const { addToCart } = useContext(AppContext);
 
-  const [product, setProduct] = useState();// new State variable
+  const [product, setProduct, url] = useState();// new State variable
   const { id } = useParams(); //jo value id me hoga useParms le lega.
   console.log(id);
-  const url = "http://localhost:4000/api";
+  // const url = "http://localhost:4000/api";
 
   useEffect(() => {
     const fetchProduct = async () => {
