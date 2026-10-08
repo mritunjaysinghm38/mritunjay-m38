@@ -5,9 +5,9 @@ import { useParams } from "react-router-dom";
 import RelatedProduct from "./RelatedProduct";
 
 const ProductDetail = () => {
-  const { addToCart } = useContext(AppContext);
+  const { addToCart, url } = useContext(AppContext);
 
-  const [product, setProduct, url] = useState();// new State variable
+  const [product, setProduct] = useState();// new State variable
   const { id } = useParams(); //jo value id me hoga useParms le lega.
   console.log(id);
   // const url = "http://localhost:4000/api";
